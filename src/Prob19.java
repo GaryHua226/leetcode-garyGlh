@@ -1,3 +1,5 @@
+import leetcodeUtil.ListNode;
+
 public class Prob19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummyHead = head;
@@ -17,10 +19,3 @@ public class Prob19 {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}

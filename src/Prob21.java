@@ -1,4 +1,4 @@
-import java.util.List;
+import leetcodeUtil.ListNode;
 
 public class Prob21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

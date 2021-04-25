@@ -1,3 +1,5 @@
+import leetcodeUtil.ListNode;
+
 public class Prob92 {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         ListNode h = new ListNode();

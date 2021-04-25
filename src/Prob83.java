@@ -1,3 +1,5 @@
+import leetcodeUtil.ListNode;
+
 public class Prob83 {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {

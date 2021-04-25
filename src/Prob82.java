@@ -1,3 +1,5 @@
+import leetcodeUtil.ListNode;
+
 public class Prob82 {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode dummyHead = new ListNode();

@@ -1,8 +1,10 @@
+import leetcodeUtil.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Prob783 {
-    public int minDiffInBST(Prob105.TreeNode root) {
+    public int minDiffInBST(TreeNode root) {
         ArrayList<Integer> arr = new ArrayList<>();
         in(arr, root);
         int res = Integer.MAX_VALUE;
@@ -12,7 +14,7 @@ public class Prob783 {
         return res;
     }
 
-    public void in(List<Integer> lst, Prob105.TreeNode root) {
+    public void in(List<Integer> lst, TreeNode root) {
         if (root == null) {
             return;
         }
