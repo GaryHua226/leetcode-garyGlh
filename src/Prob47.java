@@ -1,11 +1,13 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class Prob46 {
+public class Prob47 {
     private List<List<Integer>> res;
 
-    public List<List<Integer>> permute(int[] nums) {
+    public List<List<Integer>> permuteUnique(int[] nums) {
         res = new ArrayList<>();
+        Arrays.sort(nums);
         boolean[] a = new boolean[nums.length];
         permute(nums, new ArrayList<>(), a);
         return res;
@@ -15,6 +17,9 @@ public class Prob46 {
         boolean flag = true;
         for (int i = 0; i < nums.length; i++) {
             if (!a[i]) {
+                if (i > 0 && nums[i] == nums[i-1] && !a[i-1]) {
+                    continue;
+                }
                 flag = false;
                 cur.add(nums[i]);
                 a[i] = true;
