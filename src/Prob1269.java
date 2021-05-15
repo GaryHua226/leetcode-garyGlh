@@ -3,7 +3,7 @@ public class Prob1269 {
         if (arrLen == 1) {
             return 1;
         }
-        arrLen = Math.min(steps, arrLen);
+        arrLen = Math.min(steps / 2 + 1, arrLen); // 这里是精髓，走太远就回不去了
         long[] lastStep = new long[arrLen];
         lastStep[0] = 1;
         lastStep[1] = 1;

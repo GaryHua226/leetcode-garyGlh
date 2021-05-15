@@ -11,17 +11,16 @@ public class Prob13 {
         roman2int.put('D',500);
         roman2int.put('M',1000);
         int res = 0;
-        int[] a = new int[s.length()];
-        for (int i = 0;i < s.length(); i++)
-            a[i] = roman2int.get(s.charAt(i));
-        for (int i = 0;i < a.length-1; i++) {
-            if (a[i] < a[i+1]) {
-                res -= a[i];
+        for (int i = 0; i < s.length() - 1; i++) {
+            int curr = roman2int.get(s.charAt(i));
+            int next = roman2int.get(s.charAt(i+1));
+            if (curr < next) {
+                res -= curr;
             } else {
-                res += a[i];
+                res += curr;
             }
         }
-        res += a[a.length-1];
+        res += roman2int.get(s.charAt(s.length()-1));
         return res;
     }
 
