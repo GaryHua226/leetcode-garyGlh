@@ -24,5 +24,8 @@
     <ClCompile Include="Prob1074.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Prob1744.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
