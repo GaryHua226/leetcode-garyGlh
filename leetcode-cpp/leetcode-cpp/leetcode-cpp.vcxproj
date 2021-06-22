@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Jianzhi38.cpp" />
     <ClCompile Include="Prob1074.cpp" />
     <ClCompile Include="Prob1239.cpp" />
     <ClCompile Include="Prob1449.cpp" />

@@ -45,5 +45,8 @@
     <ClCompile Include="Prob1239.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Jianzhi38.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
