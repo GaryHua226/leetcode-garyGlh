@@ -74,9 +74,3 @@ string largestNumber(vector<int>& cost, int target) {
 		return "0";
 	}
 }
-
-int main() {
-	vector<int> cost = { 6,10,15,40,40,40,40,40,40 };
-	int target = 47;
-	largestNumber(cost, target);
-}

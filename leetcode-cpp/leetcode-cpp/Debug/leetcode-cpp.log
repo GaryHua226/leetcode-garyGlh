@@ -1,6 +1,2 @@
-﻿  Prob1449.cpp
-E:\Code\leetcode-garyGlh\leetcode-cpp\leetcode-cpp\Prob1449.cpp(16,20): warning C4018: “<”: 有符号/无符号不匹配
-E:\Code\leetcode-garyGlh\leetcode-cpp\leetcode-cpp\Prob1449.cpp(30,20): warning C4018: “<”: 有符号/无符号不匹配
-E:\Code\leetcode-garyGlh\leetcode-cpp\leetcode-cpp\Prob1449.cpp(46,16): warning C4018: “<”: 有符号/无符号不匹配
-E:\Code\leetcode-garyGlh\leetcode-cpp\leetcode-cpp\Prob1449.cpp(55,16): warning C4018: “<”: 有符号/无符号不匹配
+﻿  Prob752.cpp
   leetcode-cpp.vcxproj -> E:\Code\leetcode-garyGlh\leetcode-cpp\Debug\leetcode-cpp.exe
