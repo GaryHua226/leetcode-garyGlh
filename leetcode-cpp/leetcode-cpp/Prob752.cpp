@@ -53,8 +53,3 @@ int openLock(vector<string>& deadends, string target) {
 	return res;
 }
 
-int main() {
-	vector<string> deadends{ "8887","8889","8878","8898","8788","8988","7888","9888" };
-	int ans = openLock(deadends, "8888");
-	cout << ans << endl;
-}

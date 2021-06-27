@@ -54,5 +54,11 @@
     <ClCompile Include="Prob752.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Prob773.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prob909.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

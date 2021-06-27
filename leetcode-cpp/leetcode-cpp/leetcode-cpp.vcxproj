@@ -150,7 +150,9 @@
     <ClCompile Include="Prob474.cpp" />
     <ClCompile Include="Prob664.cpp" />
     <ClCompile Include="Prob752.cpp" />
+    <ClCompile Include="Prob773.cpp" />
     <ClCompile Include="Prob78.cpp" />
+    <ClCompile Include="Prob909.cpp" />
     <ClCompile Include="Prob97.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
