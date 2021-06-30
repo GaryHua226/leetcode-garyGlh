@@ -60,5 +60,19 @@
     <ClCompile Include="Prob909.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Prob815.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prob168.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Offer37.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TreeNode.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -58,16 +58,3 @@ int snakesAndLadders(vector<vector<int>>& board) {
 	}
 	return -1;
 }
-
-int main() {
-	vector<vector<int>> board = {
-		{-1,-1,-1,-1,-1,-1},
-		{-1,-1,-1,-1,-1,-1},
-		{-1,-1,-1,-1,-1,-1},
-		{-1,35,-1,-1,13,-1},
-		{-1,-1,-1,-1,-1,-1},
-		{-1,15,-1,-1,-1,-1}
-	};
-	int ans = snakesAndLadders(board);
-	cout << ans << endl;
-}

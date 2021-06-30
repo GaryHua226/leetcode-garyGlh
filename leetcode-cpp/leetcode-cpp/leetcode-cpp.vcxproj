@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Jianzhi38.cpp" />
+    <ClCompile Include="Offer37.cpp" />
     <ClCompile Include="Prob1074.cpp" />
     <ClCompile Include="Prob1239.cpp" />
     <ClCompile Include="Prob1449.cpp" />
     <ClCompile Include="Prob149.cpp" />
+    <ClCompile Include="Prob168.cpp" />
     <ClCompile Include="Prob1707.cpp" />
     <ClCompile Include="Prob1744.cpp" />
     <ClCompile Include="Prob279.cpp" />
@@ -152,8 +154,12 @@
     <ClCompile Include="Prob752.cpp" />
     <ClCompile Include="Prob773.cpp" />
     <ClCompile Include="Prob78.cpp" />
+    <ClCompile Include="Prob815.cpp" />
     <ClCompile Include="Prob909.cpp" />
     <ClCompile Include="Prob97.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
