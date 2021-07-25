@@ -140,14 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Jianzhi38.cpp" />
+    <ClCompile Include="LCP07.cpp" />
     <ClCompile Include="Offer37.cpp" />
+    <ClCompile Include="Prob102.cpp" />
     <ClCompile Include="Prob1074.cpp" />
     <ClCompile Include="Prob1239.cpp" />
     <ClCompile Include="Prob1449.cpp" />
     <ClCompile Include="Prob149.cpp" />
     <ClCompile Include="Prob168.cpp" />
     <ClCompile Include="Prob1707.cpp" />
+    <ClCompile Include="Prob1743.cpp" />
     <ClCompile Include="Prob1744.cpp" />
+    <ClCompile Include="Prob1833.cpp" />
     <ClCompile Include="Prob279.cpp" />
     <ClCompile Include="Prob474.cpp" />
     <ClCompile Include="Prob664.cpp" />
@@ -156,7 +160,11 @@
     <ClCompile Include="Prob78.cpp" />
     <ClCompile Include="Prob815.cpp" />
     <ClCompile Include="Prob909.cpp" />
+    <ClCompile Include="Prob95.cpp" />
+    <ClCompile Include="Prob96.cpp" />
     <ClCompile Include="Prob97.cpp" />
+    <ClCompile Include="Prob98.cpp" />
+    <ClCompile Include="Prob99.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h" />

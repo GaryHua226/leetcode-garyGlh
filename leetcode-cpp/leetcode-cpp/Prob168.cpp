@@ -11,7 +11,3 @@ string convertToTitle(int columnNumber) {
 	}
 	return res;
 }
-
-int main() {
-	cout << convertToTitle(2147483647) << endl;
-}
